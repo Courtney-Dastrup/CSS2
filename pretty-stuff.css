@@ -1,0 +1,64 @@
+html, body, title, h1, h2, h3, nav, ol, ul, li, a, p {
+    margin: 0;
+    display: block;
+    font-size: 100%;
+    font-weight: normal;
+    font-family: Arial, sans-serif;
+}
+body {
+    text-align: center;
+}
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 2px;
+}
+p {
+    font-size: 12px;
+}
+.nav h3 {
+    color: #ffffff;
+    display: inline;
+    padding: 10px 10px;
+    text-align: center;
+}
+.nav {
+    display: block;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    padding: 10px;
+    border: 3px solid #0000ff;
+    background-color: #0000ff;
+    width: 100%;
+}
+.home {
+    float: left;
+}
+.links{
+    float: right;
+}
+.poem {
+    padding: 10px 10px;
+    border: 2px solid #22aaff;
+    border-radius: 2px 15px;
+    height: 300px;
+    width: 200px;
+    position: relative;
+    float: left;
+    margin: 20px 10px;
+    text-align: left;
+}
+.container {
+    display: inline-block;
+    margin: 40px 15px;
+}
+.button {
+    padding: 5px 65px;
+    background-color: #ee0044;
+    border: 2px solid #bb0066;
+    border-radius: 5px;
+    margin: auto;
+    position: absolute;
+    bottom: 10px;
+}
